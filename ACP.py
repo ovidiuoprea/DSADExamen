@@ -120,4 +120,4 @@ def functie5(x: pd.DataFrame):
 cerinta5 = tabel_date[variabile].merge(judete["County"], left_index=True, right_index=True)
 cerinta5 = cerinta5.groupby("County").apply(func=functie5, include_groups=False)
 
-print(cerinta2_examen - cerinta5)
+# print(cerinta2_examen - cerinta5)
