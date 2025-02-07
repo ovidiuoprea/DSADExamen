@@ -38,6 +38,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\subiecte\Canonica1-Industrii\data_out\Rxz.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\Canonica1-Industrii\data_out\Ryu.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\Canonica1-Industrii\data_out\cerinta1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\Canonica1-Industrii\data_out\cerinta2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
