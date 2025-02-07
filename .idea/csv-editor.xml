@@ -38,6 +38,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\subiecte\ACP1\data_in\CountryContinents.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\ACP1\data_in\GlobalIndicatorsPerCapita_2021.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\ACP1\data_out\scoruri.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\subiecte\Canonica1-Industrii\data_out\Rxz.csv">
           <value>
             <Attribute>
