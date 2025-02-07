@@ -15,21 +15,6 @@ def f_cerinta2(x):
     valoare = x.iloc[unde]
     return pd.Series([denumire, valoare],["Activitate Dominanta", "Cifra Afaceri"])
 
-def biplot_furtuna(z, u, k1=0, k2=1, nume_instante=None):
-    fig = plt.figure(figsize=(7, 7))
-    ax = fig.add_subplot(1, 1, 1)
-    ax.set_title("Plot instante", color="b", fontsize=16)
-    ax.set_xlabel("z" + str(k1 + 1) + "/u" + str(k1 + 1))
-    ax.set_ylabel("z" + str(k2 + 1) + "/u" + str(k2 + 1))
-    ax.scatter(z[:, k1], z[:, k2], c="r", label="X")
-    ax.scatter(u[:, k1], u[:, k2], c="b", label="Y")
-    if nume_instante is not None:
-        n = len(nume_instante)
-        for i in range(n):
-            ax.text(z[i, k1], z[i, k2], nume_instante[i])
-            ax.text(u[i, k1], u[i, k2], nume_instante[i])
-    ax.legend()
-
 def biplot(x, y):
     fig = plt.figure(figsize=(7,7))
     ax = fig.add_subplot(1,1,1)
@@ -111,5 +96,4 @@ df_rxz.to_csv("data_out/Rxz.csv")
 df_ryu.to_csv("data_out/Ryu.csv")
 
 biplot(z, u)
-biplot_furtuna(z, u)
 show()

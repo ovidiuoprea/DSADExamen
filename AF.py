@@ -71,4 +71,3 @@ df_comunalitati = pd.DataFrame({
     "Comunalitate": comunalitati
 }, variabile)
 df_comunalitati.to_csv("data_out/AF/comunalitati.csv")
-
