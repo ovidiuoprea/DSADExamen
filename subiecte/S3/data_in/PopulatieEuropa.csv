@@ -1,0 +1,43 @@
+CountryCode,Country,Region,Population
+RO,Romania,EasternE,19050000
+BG,Bulgaria,EasternE,6890000
+PL,Poland,EasternE,38220000
+HU,Hungary,EasternE,9670000
+CZ,Czech Republic,EasternE,10710000
+SK,Slovakia,EasternE,5450000
+UA,Ukraine,EasternE,41170000
+RU,Russia,EasternE,144100000
+DE,Germany,WesternE,83240000
+FR,France,WesternE,67390000
+ES,Spain,SouthernE,47350000
+IT,Italy,SouthernE,59110000
+SE,Sweden,NorthernE,10450000
+FI,Finland,NorthernE,5530000
+NO,Norway,NorthernE,5430000
+DK,Denmark,NorthernE,5870000
+NL,Netherlands,WesternE,17530000
+BE,Belgium,WesternE,11690000
+LU,Luxembourg,WesternE,640000
+AT,Austria,WesternE,8960000
+CH,Switzerland,WesternE,8700000
+IE,Ireland,NorthernE,5030000
+PT,Portugal,SouthernE,10140000
+GR,Greece,SouthernE,10420000
+HR,Croatia,SouthernE,3910000
+SI,Slovenia,SouthernE,2100000
+EE,Estonia,NorthernE,1330000
+LV,Latvia,NorthernE,1850000
+LT,Lithuania,NorthernE,2700000
+AL,Albania,SouthernE,7010000
+RS,Serbia,SouthernE,3280000
+BA,Bosnia and Herzegovina,SouthernE,620000
+ME,Montenegro,SouthernE,2089999
+MK,North Macedonia,SouthernE,1860000
+XK,Kosovo,SouthernE,920000
+CY,Cyprus,SouthernE,520000
+MT,Malta,SouthernE,40000
+IS,Iceland,WesternE,40000
+LI,Liechtenstein,WesternE,30000
+MC,Monaco,SouthernE,800
+SM,San Marino,WesternE,40000
+VA,Vatican City,SouthernE,40000

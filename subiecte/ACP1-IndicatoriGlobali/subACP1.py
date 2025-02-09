@@ -4,6 +4,9 @@ from matplotlib import pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
+from grafice import cerc_corelatii
+
+
 def grafic_scoruri(scoruri):
     fig = plt.figure(figsize=(8,5))
     ax = fig.add_subplot(1,1,1)
@@ -68,3 +71,8 @@ factor_loadings = pd.read_csv("data_in/g20.csv", index_col=0)
 
 communalities = np.cumsum(factor_loadings * factor_loadings, axis=1)
 print(communalities.sum().idxmax())
+
+corelatii = np.corrcoef(x, componente, rowvar=False)[:len(alpha), len(alpha):]
+
+cerc_corelatii(corelatii=corelatii)
+show()

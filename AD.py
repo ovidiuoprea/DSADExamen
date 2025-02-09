@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from scipy.stats import f
 
+from grafice import plot_distributii, show
 from utils import nan_replace_t
 
 
@@ -72,8 +73,11 @@ model_lda.fit(x_train[predictori_],y_train)
 m = len(predictori_)
 
 # Calcul scoruri discriminante in model liniar:
-scoruri = model_lda.transform(x_train[predictori_])
-df_scoruri = pd.DataFrame(data=scoruri, index=x_train.index, columns=["Componenta" + str(i+1) for i in range(len(clase)-1)])
+scoruri = model_lda.transform(x_test[predictori_])
+df_scoruri = pd.DataFrame(data=scoruri, index=x_test.index, columns=["Componenta" + str(i+1) for i in range(len(clase)-1)])
+plot_distributii(scoruri, 3)
+show()
+df_scoruri.to_csv("data_out/AD/scoruri.csv")
 
 # Testarea modelului pe setul de antrenare:
 y_test_lda = model_lda.predict(x_test[predictori_])

@@ -2,6 +2,7 @@
 
 import pandas as pd
 import numpy as np
+from matplotlib import pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
@@ -13,6 +14,18 @@ def tabelare_varianta(alpha):
         "Procent varianta": procent_alpha,
         "Procent varianta cumulata": np.cumsum(procent_alpha)
     }, index=["C" + str(i+1) for i in range(m)])
+
+def cerc_corelatii(t: pd.DataFrame, corelatii=True):
+    fig = plt.figure(figsize = (10, 8))
+    ax = fig.add_subplot(1,1,1)
+    if corelatii:
+        tetha = np.arange(0, np.pi * 2, 0.01)
+        ax.plot(np.sin(tetha), np.cos(tetha))
+        ax.plot(0.7 * np.sin(tetha), 0.7 * np.cos(tetha))
+    ax.scatter(t[0], t[1], c="r")
+
+def show():
+    plt.show()
 
 tabel_date = pd.read_csv("data_in/ACP-Ethnicity.csv", index_col=0)
 variabile = list(tabel_date)[1:]
@@ -46,12 +59,8 @@ df_scoruri.to_csv("data_out/ACP/scoruri.csv")
 
 # Corelatii factoriale:
 corelatii = np.corrcoef(x, componente, rowvar=False)[:len(alpha), len(alpha):]
-
-a=model_acp.components_.T
-rxc=a*np.sqrt(alpha)
-
-# print(corelatii[:, 1], rxc[:, 1], sep="\n")
-
+cerc_corelatii(corelatii, True)
+show()
 
 
 # Cosinusuri:

@@ -5,6 +5,7 @@ from sklearn.cluster import AgglomerativeClustering
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_samples
 
+
 from utils import nan_replace_t
 
 set_date = pd.read_csv("data_in/Cluster-Mortalitate.csv", index_col=0)
@@ -41,7 +42,7 @@ metoda = "ward"
 ierarhie = linkage(x, metoda)
 
 # Determinare prime 2 componente pentru reprezentare partitii in axele acestora:
-pca = PCA()
+pca = PCA(n_components=2)
 pca.fit(x)
 componente = pca.transform(x)
 
@@ -51,13 +52,15 @@ df_ierarhie = pd.DataFrame(ierarhie, columns=["Cluster 1", "Cluster 2", "Distant
 df_ierarhie.index.name = "Jonctiune"
 df_ierarhie.to_csv("data_out/Cluster/ierarhie.csv")
 
+
+
 k_opt, threshold_opt = metoda_elbow(ierarhie)
 print(k_opt, threshold_opt)
 
 tabel_partitii = pd.DataFrame(index=set_date.index)
 
 partitie_optima = calculare_partitie(k_opt, x)
-# print(partitie_optima)
+print(partitie_optima)
 
 silhouette_opt = silhouette_samples(x, partitie_optima)
 

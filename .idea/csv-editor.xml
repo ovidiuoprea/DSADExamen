@@ -3,7 +3,119 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\data_in\AC-Mt_DNA_tari.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_in\AC-Y_DNA_Tari.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_in\ACP-Ethnicity.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_in\AD-ProiectB_train.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_in\AF-Y_DNA_Tari.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_in\Cluster-Mortalitate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_in\Coduri_Localitati.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\ACP\comunalitati.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\ACP\contributii.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\ACP\cosinusuri.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\ACP\scoruri.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\ACP\scoruri2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\ACP\varianta.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\AC\u.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\AC\varianta_redundanta.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\AC\xz.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\AC\z.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -17,7 +129,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data_out\AD\matrice_confuzie_bayes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_out\AD\matrice_confuzie_lda.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\AD\tabel_predictii.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_out\AF\varianta_specifica.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -38,21 +171,49 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\subiecte\ACP1\data_in\CountryContinents.csv">
+        <entry key="\subiecte\AnalizaDiscriminanta-Industrie\data_in\Industrie.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\subiecte\ACP1\data_in\GlobalIndicatorsPerCapita_2021.csv">
+        <entry key="\subiecte\AnalizaDiscriminanta-Industrie\data_in\PopulatieLocalitati.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\subiecte\ACP1\data_out\scoruri.csv">
+        <entry key="\subiecte\AnalizaDiscriminanta-Industrie\data_in\ProiectB.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\AnalizaDiscriminanta-Industrie\data_out\predict_apply.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\AnalizaDiscriminanta-Industrie\data_out\predict_test.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\Canonica1-Industrii\data_in\Industrie.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\Canonica1-Industrii\data_in\PopulatieLocalitati.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -81,6 +242,41 @@
           </value>
         </entry>
         <entry key="\subiecte\Canonica1-Industrii\data_out\cerinta2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\FactorialaVot\data_in\coduri_localitati_generat.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\FactorialaVot\data_in\vot_generat.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\FactorialaVot\data_out\cerinta1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\S2\data_out\Cerinta1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\subiecte\S2\data_out\Cerinta2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

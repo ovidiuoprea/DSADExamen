@@ -7,6 +7,7 @@ from scipy.stats import chi2
 from sklearn.cross_decomposition import CCA
 from sklearn.preprocessing import normalize
 
+from grafice import corelograma, show, biplot
 from utils import nan_replace_t
 
 def test_bartlett(c2, n, p, q, m):
@@ -74,8 +75,10 @@ df_semnificatie = pd.DataFrame(
 )
 df_semnificatie.to_csv("data_out/AC/root.csv")
 
+print(p_values)
 # Numar radacini semnificative
 numar_radacini_semnificative = np.where(p_values > 0.01)[0][0]
+print(numar_radacini_semnificative)
 
 numar_radacini_semnificative = numar_radacini_semnificative + 1 if numar_radacini_semnificative == 1 else numar_radacini_semnificative
 print("Radacini semnificative:", numar_radacini_semnificative)
@@ -105,3 +108,6 @@ df_vr = pd.DataFrame(data ={
 }, index=etichete_radacini[:m])
 
 df_vr.to_csv("data_out/AC/varianta_redundanta.csv")
+
+biplot(z, u)
+show()
